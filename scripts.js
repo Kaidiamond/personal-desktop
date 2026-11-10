@@ -5,8 +5,8 @@ function startTime() {
     let h = today.getHours();
     let m = today.getMinutes();
     let s = today.getSeconds();
-    let month = today.getMonth()
-    let day = today.getDay()
+    let month = today.getMonth() + 1
+    let day = today.getDate()
     let year = today.getFullYear()
 
     console.log(month ,   day , year)
