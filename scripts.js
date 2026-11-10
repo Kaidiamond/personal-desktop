@@ -9,7 +9,7 @@ function startTime() {
     let day = today.getDate()
     let year = today.getFullYear()
 
-    console.log(month ,   day , year)
+=
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('clock').innerHTML =  h + ":" + m + ":" + s;
